@@ -1,0 +1,429 @@
+{
+  "id": "ella-starter-v0",
+  "name": "Restore — Starter",
+  "version": "0.1",
+  "coachNote": "Starter framework plan. The morning block is your established restore work; the gym rotation is a conservative placeholder to be replaced by your real programming session with Claude.",
+  "defaultGymDaysPerWeek": 4,
+  "morning": {
+    "id": "morning",
+    "kind": "morning",
+    "title": "Morning stretch",
+    "minutes": 10,
+    "audio": true,
+    "note": "Breathing first, always — it sets up everything after it.",
+    "exercises": [
+      {
+        "id": "hip-breathing",
+        "name": "90/90 hip breathing",
+        "sets": 2,
+        "reps": 5,
+        "perSide": false,
+        "rest": 0,
+        "why": "A flared ribcage keeps hip flexors and neck muscles on duty. Full exhales stack ribs over pelvis so everything after this works on the right tissue.",
+        "feel": "Ribs melting down on the exhale, low back gently flattening, abs lightly on. Nothing in the neck.",
+        "videoURL": "https://www.youtube.com/results?search_query=90+90+hip+lift+breathing+exercise",
+        "swaps": [],
+        "inShortVersion": true,
+        "logged": false
+      },
+      {
+        "id": "hip-flexor-stretch",
+        "name": "Half-kneeling hip flexor stretch",
+        "sets": 2,
+        "seconds": 45,
+        "perSide": true,
+        "rest": 0,
+        "why": "Squeeze the glute of the down leg — that tucks the pelvis and puts the stretch on the hip flexor instead of the low back.",
+        "feel": "Front of the hip on the down leg. If it's in your low back, tuck the pelvis harder and shrink the lunge.",
+        "videoURL": "https://www.youtube.com/results?search_query=half+kneeling+hip+flexor+stretch",
+        "swaps": [],
+        "inShortVersion": true,
+        "logged": false
+      },
+      {
+        "id": "pec-stretch",
+        "name": "Doorway pec stretch",
+        "sets": 2,
+        "seconds": 45,
+        "perSide": true,
+        "rest": 0,
+        "why": "Tight pecs pull the shoulders forward and keep your back muscles from engaging. Opening the front is what lets the back turn on.",
+        "feel": "Across the chest and front of the shoulder. Never pins-and-needles down the arm — back off if so.",
+        "videoURL": "https://www.youtube.com/results?search_query=doorway+pec+stretch",
+        "swaps": [],
+        "inShortVersion": true,
+        "logged": false
+      },
+      {
+        "id": "band-pull-aparts",
+        "name": "Band pull-aparts",
+        "sets": 2,
+        "reps": 15,
+        "perSide": false,
+        "rest": 0,
+        "why": "Feel it between the shoulder blades, not in the arms. If the neck kicks in, lighten the band.",
+        "feel": "Squeeze between the shoulder blades at the end of each rep. Arms are just handles.",
+        "videoURL": "https://www.youtube.com/results?search_query=band+pull+apart+form",
+        "swaps": [],
+        "inShortVersion": false,
+        "logged": false
+      },
+      {
+        "id": "frog-pumps",
+        "name": "Frog pumps",
+        "sets": 2,
+        "reps": 15,
+        "perSide": false,
+        "rest": 0,
+        "why": "Easiest glute drill to actually feel. If single-leg bridges keep going to your hamstring, these re-establish the pattern.",
+        "feel": "Glutes squeezing at the top, soles of feet together. Hamstrings should stay quiet.",
+        "videoURL": "https://www.youtube.com/results?search_query=frog+pumps+glute+exercise",
+        "swaps": [],
+        "inShortVersion": false,
+        "logged": false
+      }
+    ]
+  },
+  "desk": {
+    "id": "desk",
+    "kind": "desk",
+    "title": "Desk resets",
+    "minutes": 5,
+    "audio": false,
+    "note": "Chair-friendly. No one will notice.",
+    "exercises": [
+      {
+        "id": "seated-neck-side",
+        "name": "Seated neck side stretch",
+        "sets": 1,
+        "seconds": 30,
+        "perSide": true,
+        "rest": 0,
+        "why": "Hours at a screen load the upper traps. A slow side stretch interrupts the creep before it becomes the 4pm lock.",
+        "feel": "A gentle line from ear to shoulder. Ease, never yank — the neck responds to slow.",
+        "videoURL": "https://www.youtube.com/results?search_query=seated+upper+trap+stretch+desk",
+        "swaps": [],
+        "inShortVersion": true,
+        "logged": false
+      },
+      {
+        "id": "seated-thoracic-ext",
+        "name": "Chair-back thoracic extension",
+        "sets": 1,
+        "reps": 8,
+        "perSide": false,
+        "rest": 0,
+        "why": "Slumping lives in the mid-back. Draping over the chair back reverses the shape you've been holding all morning.",
+        "feel": "Opening through the mid-back and chest, not pinching in the low back.",
+        "videoURL": "https://www.youtube.com/results?search_query=seated+thoracic+extension+chair",
+        "swaps": [],
+        "inShortVersion": true,
+        "logged": false
+      },
+      {
+        "id": "standing-pec-doorway",
+        "name": "Doorway pec opener (coffee-run version)",
+        "sets": 1,
+        "seconds": 30,
+        "perSide": true,
+        "rest": 0,
+        "why": "Same front-line opener as the morning, disguised as leaning in a doorway on the way to the kitchen.",
+        "feel": "Across the chest. Casual on the outside, purposeful on the inside.",
+        "videoURL": "https://www.youtube.com/results?search_query=doorway+pec+stretch",
+        "swaps": [],
+        "inShortVersion": true,
+        "logged": false
+      }
+    ]
+  },
+  "gymDays": [
+    {
+      "id": "full-a",
+      "title": "Full body A",
+      "goalThread": "Starter rotation · builds the squat + press patterns · placeholder until your real program lands",
+      "lifts": [
+        {
+          "id": "goblet-squat",
+          "name": "Goblet squat",
+          "sets": 3,
+          "reps": 8,
+          "perSide": false,
+          "load": "light DB",
+          "rest": 90,
+          "why": "the squat pattern, front-loaded so your trunk learns to stay tall",
+          "feel": "Whole foot rooted, quads and glutes working, chest tall. Low back quiet.",
+          "videoURL": "https://www.youtube.com/results?search_query=goblet+squat+form",
+          "swaps": [
+            "split-squat"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "db-bench",
+          "name": "Dumbbell bench press",
+          "sets": 3,
+          "reps": 8,
+          "perSide": false,
+          "load": "light DBs",
+          "rest": 90,
+          "why": "horizontal press — chest and triceps without a barbell's commitment",
+          "feel": "Chest doing the pushing, shoulder blades tucked back into the bench.",
+          "videoURL": "https://www.youtube.com/results?search_query=dumbbell+bench+press+form",
+          "swaps": [
+            "incline-db-press"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "seated-cable-row",
+          "name": "Seated cable row",
+          "sets": 3,
+          "reps": 10,
+          "perSide": false,
+          "load": "moderate",
+          "rest": 90,
+          "why": "the row pattern — mid-back strength that undoes the desk",
+          "feel": "Shoulder blades squeezing together, elbows drawing back. Not a bicep exercise.",
+          "videoURL": "https://www.youtube.com/results?search_query=seated+cable+row+form",
+          "swaps": [
+            "single-arm-db-row"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "plank",
+          "name": "Plank",
+          "sets": 3,
+          "seconds": 20,
+          "perSide": false,
+          "rest": 60,
+          "why": "honest trunk time — stop at the first droop",
+          "feel": "Abs and glutes sharing the load. The moment hips sag, the set is over.",
+          "videoURL": "https://www.youtube.com/results?search_query=plank+form",
+          "swaps": [],
+          "inShortVersion": false,
+          "logged": true
+        }
+      ]
+    },
+    {
+      "id": "full-b",
+      "title": "Full body B",
+      "goalThread": "Starter rotation · builds the hinge + pull patterns · placeholder until your real program lands",
+      "lifts": [
+        {
+          "id": "db-rdl",
+          "name": "Dumbbell Romanian deadlift",
+          "sets": 3,
+          "reps": 8,
+          "perSide": false,
+          "load": "light DBs",
+          "rest": 90,
+          "why": "the hinge — hamstrings and glutes learning to carry load",
+          "feel": "Hamstrings stretching on the way down, glutes finishing the stand. Back stays a quiet plank.",
+          "videoURL": "https://www.youtube.com/results?search_query=dumbbell+romanian+deadlift+form",
+          "swaps": [
+            "single-leg-glute-bridge"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "lat-pulldown",
+          "name": "Lat pulldown",
+          "sets": 3,
+          "reps": 10,
+          "perSide": false,
+          "load": "moderate",
+          "rest": 90,
+          "why": "vertical pull — lats, the muscle your band pull-aparts have been prepping",
+          "feel": "Elbows driving down into your back pockets. Lats, not forearms.",
+          "videoURL": "https://www.youtube.com/results?search_query=lat+pulldown+form",
+          "swaps": [
+            "single-arm-db-row"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "db-shoulder-press",
+          "name": "Seated dumbbell shoulder press",
+          "sets": 3,
+          "reps": 8,
+          "perSide": false,
+          "load": "light DBs",
+          "rest": 90,
+          "why": "vertical press — shoulders that carry groceries and confidence",
+          "feel": "Delts pressing, ribs stacked. Don't let the low back arch to cheat.",
+          "videoURL": "https://www.youtube.com/results?search_query=seated+dumbbell+shoulder+press+form",
+          "swaps": [
+            "incline-db-press"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "banded-lateral-walk",
+          "name": "Banded lateral walk",
+          "sets": 3,
+          "reps": 12,
+          "perSide": true,
+          "rest": 60,
+          "why": "glute med — the pelvis stabilizer everything else stands on",
+          "feel": "Side of the hip burning, torso quiet, constant band tension.",
+          "videoURL": "https://www.youtube.com/results?search_query=banded+lateral+walk+form",
+          "swaps": [],
+          "inShortVersion": false,
+          "logged": false
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "title": "Upper focus",
+      "goalThread": "Starter rotation · extra volume for back and shoulders · placeholder until your real program lands",
+      "lifts": [
+        {
+          "id": "single-arm-db-row",
+          "name": "Single-arm dumbbell row",
+          "sets": 3,
+          "reps": 10,
+          "perSide": true,
+          "load": "light DB",
+          "rest": 90,
+          "why": "unilateral row — each side earns its own strength",
+          "feel": "Lat and mid-back drawing the elbow to your hip. No torso twist.",
+          "videoURL": "https://www.youtube.com/results?search_query=single+arm+dumbbell+row+form",
+          "swaps": [
+            "seated-cable-row"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "incline-db-press",
+          "name": "Incline dumbbell press",
+          "sets": 3,
+          "reps": 10,
+          "perSide": false,
+          "load": "light DBs",
+          "rest": 90,
+          "why": "upper-chest press angle to round out the pushing pattern",
+          "feel": "Upper chest and front delts. Shoulder blades stay tucked.",
+          "videoURL": "https://www.youtube.com/results?search_query=incline+dumbbell+press+form",
+          "swaps": [
+            "db-bench"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "face-pulls",
+          "name": "Face pulls",
+          "sets": 2,
+          "reps": 15,
+          "perSide": false,
+          "load": "light",
+          "rest": 60,
+          "why": "your posture work, loaded — rear delts and lower traps on duty",
+          "feel": "Back of the shoulders and between the blades. Light weight, honest squeeze.",
+          "videoURL": "https://www.youtube.com/results?search_query=cable+face+pull+form",
+          "swaps": [
+            "band-pull-aparts"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "wall-slide-liftoff",
+          "name": "Wall slide with lift-off",
+          "sets": 2,
+          "reps": 8,
+          "perSide": false,
+          "rest": 60,
+          "why": "that inch of lift-off is your lower traps doing the work they've been skipping",
+          "feel": "Lower traps lifting the forearms off the wall. Upper traps and neck stay soft.",
+          "videoURL": "https://www.youtube.com/results?search_query=wall+slide+lift+off+exercise",
+          "swaps": [],
+          "inShortVersion": false,
+          "logged": false
+        }
+      ]
+    },
+    {
+      "id": "lower",
+      "title": "Lower focus",
+      "goalThread": "Starter rotation · glutes and legs, the physique day · placeholder until your real program lands",
+      "lifts": [
+        {
+          "id": "single-leg-glute-bridge",
+          "name": "Single-leg glute bridge (3-sec hold)",
+          "sets": 3,
+          "reps": 6,
+          "perSide": true,
+          "rest": 60,
+          "why": "the hold is a recruitment test on every rep — felt in the glute, not the hamstring",
+          "feel": "One glute doing all the work, pelvis level as a tabletop. Regress to frog pumps if it drifts.",
+          "videoURL": "https://www.youtube.com/results?search_query=single+leg+glute+bridge+form",
+          "swaps": [
+            "frog-pumps"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "split-squat",
+          "name": "Split squat",
+          "sets": 3,
+          "reps": 8,
+          "perSide": true,
+          "load": "bodyweight",
+          "rest": 90,
+          "why": "single-leg strength — where balanced, strong legs actually come from",
+          "feel": "Front quad and glute. Torso tall, back knee kissing the floor.",
+          "videoURL": "https://www.youtube.com/results?search_query=split+squat+form",
+          "swaps": [
+            "goblet-squat"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "leg-curl",
+          "name": "Seated or lying leg curl",
+          "sets": 3,
+          "reps": 10,
+          "perSide": false,
+          "load": "moderate",
+          "rest": 90,
+          "why": "direct hamstring work so the RDL has partners",
+          "feel": "Hamstrings only. Slow on the way back.",
+          "videoURL": "https://www.youtube.com/results?search_query=seated+leg+curl+form",
+          "swaps": [
+            "db-rdl"
+          ],
+          "inShortVersion": true,
+          "logged": true
+        },
+        {
+          "id": "calf-raise",
+          "name": "Standing calf raise",
+          "sets": 2,
+          "reps": 12,
+          "perSide": false,
+          "load": "bodyweight",
+          "rest": 60,
+          "why": "ankles that push back when you walk as much as you do",
+          "feel": "Full stretch at the bottom, full squeeze at the top. Slow both ways.",
+          "videoURL": "https://www.youtube.com/results?search_query=standing+calf+raise+form",
+          "swaps": [],
+          "inShortVersion": false,
+          "logged": true
+        }
+      ]
+    }
+  ]
+}

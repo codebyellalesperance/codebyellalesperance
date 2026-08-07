@@ -1,0 +1,42 @@
+name: Restore
+options:
+  bundleIdPrefix: com.ellalesperance
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  Restore:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Resources
+        type: folder
+        buildPhase: resources
+    entitlements:
+      path: Restore.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access: []
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: Restore
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIAppFonts:
+          - HankenGrotesk.ttf
+        UIBackgroundModes:
+          - audio
+        NSHealthShareUsageDescription: >-
+          Restore reads your sleep, steps, workouts, cycle and nutrition data
+          to adapt your daily plan. Data never leaves your device.
+        NSHealthUpdateUsageDescription: >-
+          Restore can save completed workouts to Apple Health.
+        ITSAppUsesNonExemptEncryption: false

@@ -1,0 +1,10 @@
+# XcodeGen output
+Restore/Restore.xcodeproj
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# macOS
+.DS_Store
