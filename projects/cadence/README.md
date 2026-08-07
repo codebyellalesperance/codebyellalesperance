@@ -30,7 +30,7 @@ with Claude and imported via Settings → Import plan.
 ## Build (on your Mac)
 
 1. Install XcodeGen once: `brew install xcodegen`
-2. In this `Cadence/` folder: `xcodegen generate`
+2. In this `projects/cadence/` folder: `xcodegen generate`
 3. Open `Cadence.xcodeproj` in Xcode.
 4. Target **Cadence** → Signing & Capabilities → pick your Team
    (personal bundle id is `com.ellalesperance.Cadence`; change if you like).
@@ -45,8 +45,8 @@ written without a compiler in the loop, so expect one quick fix-up round.
 
 The visual system (glass over sky and pine mist, thin Hanken Grotesk,
 hairlines, muted pine/clay/grey-blue) comes from the living wireframe in
-`../docs/restore-wireframes.html`. Product decisions live in
-`../docs/restore-blueprint.md`.
+`docs/restore-wireframes.html`. Product decisions live in
+`docs/restore-blueprint.md`.
 
 ## Roadmap
 
