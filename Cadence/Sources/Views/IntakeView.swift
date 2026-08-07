@@ -21,7 +21,7 @@ struct IntakeView: View {
         ZStack {
             SkyBackground()
             VStack(alignment: .leading, spacing: 22) {
-                LabelText("Restore · Setup \(step + 1) of \(totalSteps)")
+                LabelText("Cadence · Setup \(step + 1) of \(totalSteps)")
                     .padding(.top, 30)
 
                 Group {

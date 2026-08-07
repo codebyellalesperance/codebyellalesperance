@@ -1,6 +1,7 @@
-# Restore — iOS app (v1)
+# Cadence — iOS app (v1)
 
-A calming trainer who understands you. Blueprint framework: the app is the
+Training in the rhythm of your life. A calming trainer who understands you.
+Blueprint framework: the app is the
 delivery layer; training plans are data (`Resources/seed-plan.json`), built
 with Claude and imported via Settings → Import plan.
 
@@ -29,10 +30,10 @@ with Claude and imported via Settings → Import plan.
 ## Build (on your Mac)
 
 1. Install XcodeGen once: `brew install xcodegen`
-2. In this `Restore/` folder: `xcodegen generate`
-3. Open `Restore.xcodeproj` in Xcode.
-4. Target **Restore** → Signing & Capabilities → pick your Team
-   (personal bundle id is `com.ellalesperance.Restore`; change if you like).
+2. In this `Cadence/` folder: `xcodegen generate`
+3. Open `Cadence.xcodeproj` in Xcode.
+4. Target **Cadence** → Signing & Capabilities → pick your Team
+   (personal bundle id is `com.ellalesperance.Cadence`; change if you like).
 5. Plug in your iPhone, select it as the run destination, hit **Run**.
 6. First run on device: Settings → General → VPN & Device Management →
    trust your developer certificate (only needed once).

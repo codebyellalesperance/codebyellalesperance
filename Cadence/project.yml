@@ -1,4 +1,4 @@
-name: Restore
+name: Cadence
 options:
   bundleIdPrefix: com.ellalesperance
   deploymentTarget:
@@ -11,7 +11,7 @@ settings:
     MARKETING_VERSION: "0.1.0"
     CURRENT_PROJECT_VERSION: "1"
 targets:
-  Restore:
+  Cadence:
     type: application
     platform: iOS
     sources:
@@ -20,14 +20,14 @@ targets:
         type: folder
         buildPhase: resources
     entitlements:
-      path: Restore.entitlements
+      path: Cadence.entitlements
       properties:
         com.apple.developer.healthkit: true
         com.apple.developer.healthkit.access: []
     info:
       path: Info.plist
       properties:
-        CFBundleDisplayName: Restore
+        CFBundleDisplayName: Cadence
         UILaunchScreen: {}
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         UIAppFonts:
@@ -35,8 +35,8 @@ targets:
         UIBackgroundModes:
           - audio
         NSHealthShareUsageDescription: >-
-          Restore reads your sleep, steps, workouts, cycle and nutrition data
+          Cadence reads your sleep, steps, workouts, cycle and nutrition data
           to adapt your daily plan. Data never leaves your device.
         NSHealthUpdateUsageDescription: >-
-          Restore can save completed workouts to Apple Health.
+          Cadence can save completed workouts to Apple Health.
         ITSAppUsesNonExemptEncryption: false

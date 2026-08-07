@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct RestoreApp: App {
+struct CadenceApp: App {
     @StateObject private var store = AppStore()
     @StateObject private var health = HealthService.shared
 
